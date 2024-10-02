@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #000;
+        }
+        .navbar{
+            padding: 15px;
+        }
+        .navbar div{
+            float: left;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+        ul li{
+            float: left;
+            margin-left: 20px;
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: large;
+            margin-left: 50px;
+        }
+        ul{
+            margin-top: 30px;
+            margin-left: 35%;
+        }
+        ul li a:hover{
+            color: yellow;
+        }
+        .login{
+            margin-left: 50px;
+            width: 100px;
+            height: 40px;
+            background-color: yellow;
+            color: #000;
+            border-radius: 5px;
+            margin-top: -20px;
+           cursor: pointer;
+        }
+        .reg{
+            width: 100px;
+            height: 40px;
+            margin-top: -20px;
+            margin-left: 20px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .reg:hover{
+            background-color: yellow;
+            color: #000;
+        }
+        .text{
+            color: white;
+            margin-left: 70px;
+        }
+        .text h2{
+            font-size: 50px;
+        }
+        .text p{
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            line-height: 30px;
+        }
+        button{
+            width: 200px;
+            height: 60px;
+            margin-top: 30px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            font-size: large;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: yellow;
+            color: #000;
+        }
+        .burger{
+            width: 50%;
+            margin-left: 48%;
+            margin-top: -27%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <ul>
+            <li><a href="#" style="color: yellow;">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <input type="button" value="Login" class="login">
+            <input type="button" value="Register" class="reg">
+        </ul>
+    </nav>
+    <div class="text">
+        <h2>Discover Restaurants<br>
+            That deliver near You</h2>
+            <p>It is a long established fact that a reader will be distracted<br>
+                 by the readable content of a page when looking at its layout.</p>
+                 <button>Order Now</button>
+    </div>
+    <img src="burger_slide.png" class="burger">
+</body>
+</html>
