@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #ec23a6;
+            }
+            .navbar{
+                padding: 15px;
+            }
+            .navbar div{
+                float: left;
+                color: white;
+                justify-content: center;
+                margin-left: 70px;
+               
+            }
+            ul li{
+                float: left;
+                margin-left: 20px;
+                list-style: none;
+            }
+            ul li a{
+                text-decoration: none;
+                color: white;
+                font-size: large;
+                margin-left: 50px;
+            }
+            ul {
+                margin-top: 10px;
+                margin-left: 35%;
+            }
+            .login{
+                margin-left: 50px;
+                width: 100px;
+               height: 30px;
+                border-radius: 20px;
+                margin-top: -20px;
+                border: 2px solid white;
+                background-color: transparent;
+                color: white;
+            }
+            .login:hover{
+                background-color: white;
+                color: black;
+            }
+            .reg{
+                margin-left: 20px;
+                width: 100px;
+               height: 30px;
+                border-radius: 20px;
+                margin-top: -20px;
+                border: 2px solid white;
+                background-color: transparent;
+                color: white;
+            }
+            .reg:hover{
+                background-color: white;
+                color: black;
+            }
+            .text{
+                margin-left: 80px;
+                color: white;
+            }
+            .text h2{
+                font-size: 60px;
+                letter-spacing: 3px;
+            }
+            .text p{
+                letter-spacing: 1px;
+                line-height: 30px;
+                margin-top: -20px;
+            }
+            button{
+                width: 200px;
+                height: 50px;
+                border-radius: 20px;
+                background-color: transparent;
+                border: 2px solid white;
+                color: white;
+                margin-top: 20px;
+                font-size: large;
+            }
+            button:hover{
+                background-color: white;
+                color: black;
+            }
+            .hero{
+                width: 50%;
+                margin-left: 49%;
+                margin-top: -34%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Order</a></li>
+                <input type="button" value="Login" class="login">
+                <input type="button" value="Register" class="reg">
+            </ul>
+        </nav>
+        <div class="text">
+            <h2>50% OFF<br>
+                First <br>order</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum <br>
+                    sapiente enim? Aut, voluptate. Aut voluptatem quo fugit quam quae. Ut, <br>
+                    cumque? Unde odit laborum consectetur facere repellendus, quam illum.</p>
+                    <button>Order Now</button>
+        </div>
+        <img src="hero.png" class="hero">
+    </body>
+</html>
