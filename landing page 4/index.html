@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title>Landing Page</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+               
+            }
+            .navbar{
+                padding: 20px;
+            }
+            .navbar div{
+                float: left;
+                margin-left: 20px;
+            } 
+            .navbar ul li {
+                float: left;
+                margin-left: 20px;
+                list-style: none;
+            }
+            .navbar ul li a{
+                margin-left: 50px;
+                text-decoration: none;
+                color: black;
+                font-size: large;
+            }
+            .navbar ul{
+                margin-left: 30%;
+            }
+            .navbar ul li a:hover{
+                color: orangered;
+            }
+            .navbar .signup-btn{
+                width: 150px;
+                height: 35px;
+                margin-left: 100px;
+                margin-top: -10px;
+                background-color: orangered;
+                color: white;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+            }
+            .signup-btn:hover{
+                background-color: #5a99f1;
+            }
+            .banner{
+                width: 50%;
+                margin-left: 50%;
+            }
+            .backgound{
+                margin-top: -40%;
+            }
+            .contant-text{
+                margin-top: -40%;
+                margin-left: 100px;
+            }
+            .contant-text h4{
+                color: orangered;
+            }
+            .contant-text h2{
+                font-size: 50px;
+            }
+            .contant-text p{
+                letter-spacing: 1px;
+                word-spacing: 2px;
+                line-height: 30px;
+            }
+            .contant-btn{
+                width: 200px;
+                height: 40px;
+                margin-top: 20px;
+                border-radius: 10px;
+                color: white;
+                background-color: #5a99f1;
+                border: none;
+                cursor: pointer;
+            }
+            .contant-btn:hover{
+                background-color: orangered;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <ul>
+                <li><a href="#" style="color: orangered;">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <button class="signup-btn">Sign Up</button>
+            </ul>
+        </nav>
+        <img src="banner.png" class="banner">
+        <img src="background.png" class="backgound">
+        <div class="contant-text">
+            <h4>WELCOME TO ONIX DIGITAL </h4>
+            <h2>Build <span style="color: #5a99f1;">Your Website</span><br>
+            The Best in <span style="color: orangered;">SEO</span>?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                 Vel molestiae nam aliquam rem illum officia quidem<br>
+                  tenetur quos quibusdam!</p>
+                  <button class="contant-btn">Message Us Now</button>
+        </div>
+    </body>
+</html>
