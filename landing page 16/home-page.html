@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(background.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .home{
+            width: 75%;
+            height: 550px;
+            background-color: brown;
+            margin-top: 50px;
+            border-radius: 10px;
+            background: rgba( 153, 190, 107, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+        .navbar{
+            padding: 15px;
+        }
+        .navbar div{
+            float: left;
+            margin-left: 50px;
+            color: white;
+            cursor: pointer;
+        }
+        ul li{
+            float: left;
+            margin-left: 20px;
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            margin-left: 30px;
+        }
+        ul{
+            margin-top: 25px;
+            margin-left: 30%;
+        }
+        span{
+            color: orange;
+        }
+        ul li a:hover{
+            color: orange;
+        }
+        .btn1{
+            width: 100px;
+            height: 30px;
+            margin-left: 50px;
+            margin-top: -20px;
+            border-radius: 10px;
+            background-color: orange;
+            border: none;
+            cursor: pointer;
+            transition: background-color 2s ease;
+        }
+        .btn1:hover{
+            background-color: #e87c09;
+        }
+        .text{
+          
+            margin-left: 60px;
+            color: white;
+        }
+        .text h2{
+            color: orange;
+            font-size: 40px;
+        }
+        .text p{
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            line-height: 30px;
+        }
+        .btn2{
+            width: 150px;
+            height: 35px;
+            background-color: orange;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 2s ease;
+        }
+        .btn2:hover{
+            background-color:#e87c09;
+        }
+        .btn3{
+            width: 150px;
+            height: 35px;
+            background-color: orange;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            margin-left: 20px;
+            transition: background-color 2s ease;
+        }
+        .btn3:hover{
+            background-color:#e87c09;
+        }
+        .owl{
+            width: 45%;
+            margin-left: 55%;
+            margin-top: -38%;
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+        <nav class="navbar">
+            <div class="logo">
+                <h2>Owl<span>Nest</span></h2>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Owls</a></li>
+                <li><a href="#">Care Tips</a></li>
+                <li><a href="#">Adoption</a></li>
+                <button class="btn1">Learn More</button>
+            </ul>
+        </nav>
+        <div class="text">
+            <h2>Discover The Magic <br>Of Owning An Owl</h2>
+            <h4>Your New Feathered Friend Awaits!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                 Repudiandae, iste modi illum eveniet, dolor atque <br>
+                 praesentium minima recusandae harum libero <br>
+                 dolorem eaque maiores asperiores.</p>
+                 <input type="button" class="btn2" value="Meet Owls">
+                 <input type="button" class="btn3" value="Explore Care">
+        </div>
+        <img src="owl.png" class="owl">
+    </div>
+</body>
+</html>
